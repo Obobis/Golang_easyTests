@@ -17,11 +17,11 @@
   go test
   ```
 - Бенчмарк тесты:
-  ```
+  ```bash
   # Станартная команда
-  go text -bench=.
+  go test -bench=.
   # с повторением бенчмарка
   go test -bench=. -count=5
   # выполнять бенчмарк определенное количество времени
-  gp tesst -bench=. -benchtime=10s
+  gp test -bench=. -benchtime=10s
   ```
